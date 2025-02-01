@@ -1,0 +1,13 @@
+name: ClassSystem
+version: '1.0'
+main: de.zkinqjustin.classSystem.ClassSystem
+api-version: '1.21'
+depend: [PlaceholderAPI]
+commands:
+  klasse:
+    description: Open the class selection GUI
+    usage: /klasse
+  exp:
+    description: Add experience to a player
+    usage: /exp add <player> <amount>
+    permission: classsystem.exp

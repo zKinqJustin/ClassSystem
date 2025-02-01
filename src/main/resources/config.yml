@@ -1,0 +1,27 @@
+database:
+  host: localhost
+  port: 3306
+  database: minecraft_classes
+  username: your_username
+  password: your_password
+
+mob-exp:
+  zombie: 5
+  skeleton: 5
+  creeper: 10
+  spider: 5
+  enderman: 15
+  blaze: 10
+  ghast: 15
+  wither_skeleton: 20
+  ender_dragon: 1000
+  wither: 500
+  # Custom MythicMobs
+  custom_mob1: 50
+  custom_mob2: 75
+  boss_mob: 500
+
+placeholder:
+  -%classsystem_class% 
+  -%classsystem_level% 
+  -%classsystem_mana%
